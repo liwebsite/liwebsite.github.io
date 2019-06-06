@@ -1,4 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = ""
 languageCode = "en-us"
 title = "William Li"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+publishDir = "../liwebsite.github.io"

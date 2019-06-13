@@ -9,10 +9,9 @@
 <body class="project-background">
     {{ partial "navbar.html" (dict "context" . "originPage" "project") }}
     <div class="container">
-        <div class="text-center"></p>
+        <div class="text-center text-light"></p>
         <h1>{{ .Title }}</h1>
         <div class="text-left"></p>
-        <div class="text-secondary"></p>
 
         {{/*  Each project has either a project image or a project video  */}}
         {{/*  The code below checks if there's a project video, and if so checks the type  */}}
@@ -48,6 +47,7 @@
             Do that in the .md file for the project  */}}
      
     </div>
-    
+    {{ partial "scripts.html" }}
 </body>
+
 </html>

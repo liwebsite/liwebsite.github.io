@@ -6,20 +6,18 @@
 .card-body a{ /* changes the style of a only when it's inside of card-body */
     text-decoration: none;
     color: black;
-    border-block-color: black;
 }
 
 .card-body a:hover{ /* changes the style of a ON HOVER and only when it's inside of card-body */
-    color: rgb(38, 175, 255);
+    color: rgb(56, 102, 201);
 }
 
 body{
     font-family: 'Nunito', sans-serif;
-    background-color: rgb(252, 141, 77);
+    background-color: rgb(49, 114, 255);
 }
 
 .navbar {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
-
 

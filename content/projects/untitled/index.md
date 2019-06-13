@@ -28,7 +28,3 @@ I co-wrote and edited this mockumentary that provides social commentary about to
 \
 \
 \
-Below is a video which is not a project video!
-<div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/285189099?title=0&byline=0&portrait=0"  frameborder="0" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
-</div>

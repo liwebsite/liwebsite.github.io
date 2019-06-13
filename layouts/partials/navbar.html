@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="index.html"><h1>William Li</h1><h5>Animator/Editor</h5></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -8,7 +8,7 @@
             <li class="nav-item {{ if eq .originPage `home` }} active {{ end }}">
             {{/*  active means this is the current page  */}}
             {{/*  using ` quotes around "home" because I'm already inside of a quote  */}}
-                <a class="nav-link" href="/index.html"><h2>Portfolio</h2>
+                <a class="nav-link" href="/index.html"><h2>Projects</h2>
                     {{ if eq .originPage `home` }} 
                         <span class="sr-only">(current)</span>
                     {{ end }}
